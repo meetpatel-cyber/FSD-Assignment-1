@@ -1,0 +1,14 @@
+class Rectangle {
+    constructor(length, width) {
+        this.length = length;
+        this.width = width;
+    }
+
+    findArea() {
+        return this.length * this.width;
+    }
+}
+
+// Create object
+const rect = new Rectangle(10, 5);
+console.log("Area = " + rect.findArea());
