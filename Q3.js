@@ -8,7 +8,5 @@ class Rectangle {
         return this.length * this.width;
     }
 }
-
-// Create object
 const rect = new Rectangle(10, 5);
 console.log("Area = " + rect.findArea());
