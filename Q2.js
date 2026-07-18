@@ -9,6 +9,5 @@ class Employee {
     }
 }
 
-// Create object
 const emp = new Employee("Riya", 50000);
 emp.showSalary();
