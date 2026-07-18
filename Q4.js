@@ -15,7 +15,6 @@ class BankAccount {
     }
 }
 
-// Create object
 const account = new BankAccount("Meet", 10000);
 
 account.deposit(5000);
