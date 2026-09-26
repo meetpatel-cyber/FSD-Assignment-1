@@ -38,4 +38,4 @@ async function displayStudents() {
     console.log(data);
 }
 
-displayStudents();
+displayStudents();  
